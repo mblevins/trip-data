@@ -9,6 +9,8 @@ This is done on machines with an icloud account associated with the photos, so t
 
 There are two people, Lola and Mike. Mike has a removable disk on his machine,because he's low on disk space, and that's also used to move files bwteen machines.
 
+It requires [osxphotos](https://github.com/RhetTbull/osxphotos) to be installed on both machines.
+
 Assume a directory stucture like this:
 
 - $Work_Dir (on a removable disk)
