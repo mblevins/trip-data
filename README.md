@@ -1,11 +1,12 @@
 # trip-data
-Data and trips for photo and blog processing, used as a common submodule 
+Data and trips for photo and blog processing, used as a common repo across projects
+(it should be a submodule, but I can never remember submodule commands)
 
 The general workflow is that the json files are created and updated in the icloud/darktable workflow and consumed in the smug-cli workflow, but somtimes the files are updated out of order. 
 
 ## iCloud Photos and Darktable
 
-This is done on machines with an icloud account associated with the photos, so there it is more of a manual workflow with this repo as a helper, this is the only repo used as a subdirectory rather than a submodule. 
+This is done on machines with an icloud account associated with the photos, so there it is more of a manual workflow with this repo as a helper.
 
 There are two people, Lola and Mike. Mike has a removable disk on his machine,because he's low on disk space, and that's also used to move files bwteen machines.
 
@@ -45,6 +46,8 @@ bash ../trip-data/create-photos-export.sh M ../trip-data/<json-file>
 
 Back to Mike's Machine:
 
+Reattach the disk (at this point they've worked, so no more changes expected for this session)
+
 Check in the trips files
 ```
 cd trip-data
@@ -63,4 +66,4 @@ Now,
 
 ## Smugmug and eleventy processing
 
-See [smug-cli](https://github.com/mblevins/smug-cli), trip-data is used as a submodule there.
+See [smug-cli](https://github.com/mblevins/smug-cli), trip-data is used there as well
